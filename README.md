@@ -13,4 +13,4 @@ Data was collected for each flip executed in the study. The variables recorded f
 Data analysis looked specifically at the influence of temperature, day, and treatment on righting time. 
   - the analysis script, urchin_analysis, can be found in the scripts folder. 
 
-All the data was collected the summer of 2018 at the University of Salem marine lab, and the project was funded by the University of Massachussetts, Boston and NSF. Special to Breck Mccollum and the Byrnes lab at UMass, Boston with the help to complete this research.
+All the data was collected the summer of 2018 at the University of Salem marine lab, and the project was funded by the University of Massachussetts, Boston and NSF. Special thanks to Breck Mccollum and the Byrnes lab at UMass, Boston with the help to complete this research.
