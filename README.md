@@ -8,8 +8,9 @@ This research looks specifically at how heat spikes affect behavior of the green
 We were able to obtain sea urchins from Halfway Rock in the Salem Sound, Salem, Massachussetts at about a 10-20 meter depth. The urchins were acclimmated for a week in the ambient conditions and were only fed on the first day of acclimation. The experiment consisted of urchins being placed in their respective treatments where they were flipped five times within an 8-hour tidal cycle.The experiment was run for three consecutive days and repeated for three weeks, each week with a different group of urchins. Both ambient and heat spike treatment housed four urchins at a time, therefore a total fo 24 urchins were tested. 
 
 Data was collected for each flip executed in the study. The variables recorded for each flip included: urchin ID, day, treatment, time point (point of the tidal cycle), water temperature, week, and righting time. 
-  - data, urchin_data_r.xlsx, can be found in the data file
+  - the data, urchin_data_r.xlsx, can be found in the data file
   
-Data analysis looked specifically at the influence of temperature, day, and treatment on righting time. The analysis script, urchin_analysis, can be found in the scripts folder. 
+Data analysis looked specifically at the influence of temperature, day, and treatment on righting time. 
+  - the analysis script, urchin_analysis, can be found in the scripts folder. 
 
 All the data was collected the summer of 2018 at the University of Salem marine lab, and the project was funded by the University of Massachussetts, Boston and NSF. Special to Breck Mccollum and the Byrnes lab at UMass, Boston with the help to complete this research.
