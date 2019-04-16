@@ -1,0 +1,23 @@
+---
+title: "Figures"
+author: "Daniela Adjunta"
+date: "4/15/2019"
+output: html_document
+---
+
+Regression analysis looking at how righting time was influenced by day, time point, and treatment. We use timepoint here to understand the affect of the point in the tidal cycle. The model was plotted using partial residuals to understand how the response variable is affected by all the independent variables. 
+```{r}
+library(readxl)
+urchin_data_r <- read_excel("data/urchin_data_r.xlsx")
+urchin_dat <- subset(urchin_data_r, subset = righting_time < 900)
+trtmt <- as.factor(urchin_dat$treatment)
+tp.model <- lm(righting_time ~ day + time_point + trtmt, data = urchin_dat)
+termplot(tp.model, partial.resid = T, se = T)
+summary(tp.model)
+```
+The same type of model is made using temperature rather than time point. Temperature is used to understand how temperature affects righting time.
+```{r}
+temp.model <- lm(righting_time ~ day + temperature + trtmt, data = urchin_dat)
+termplot(temp.model, partial.resid = T, se = T)
+summary(temp.model)
+```
